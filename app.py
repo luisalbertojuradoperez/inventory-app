@@ -6,6 +6,7 @@ app = Flask(__name__)
 x =2000
 
 y = 203
+z = 304
 
 inventory = {
     "SKU001": {"name": "Laptop", "stock": 10},
