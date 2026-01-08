@@ -2,6 +2,11 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
+# este es un cambio sencillo a ver que pasa
+x =2000
+
+y = 203
+
 inventory = {
     "SKU001": {"name": "Laptop", "stock": 10},
     "SKU002": {"name": "Mouse", "stock": 50},
